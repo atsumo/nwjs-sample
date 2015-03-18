@@ -1,0 +1,21 @@
+{
+  "main": "index.html",
+  "name": "markdowner",
+  "description": "markdown editor",
+  "version": "0.1.0",
+  "keywords": [],
+  "window": {
+    "title": "markdowner",
+    "icon": "icon/icon_512x512.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 1000,
+    "height": 800,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 400
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

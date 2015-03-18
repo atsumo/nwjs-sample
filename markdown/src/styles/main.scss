@@ -1,0 +1,83 @@
+@import "./normalize.css";
+
+$primary-color: green;
+
+h1 {
+  color: $primary-color;
+}
+
+li.task {
+  list-style-type: none;
+
+  label {
+    padding: 0 10px;
+  }
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.content {
+    overflow: hidden;
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+    font-size: 16px;
+}
+
+.editor {
+    float: left;
+    width: 50%;
+    background-color: #36312C;
+    color: #EBD1B7;
+    overflow: auto;
+
+    textarea {
+      font-family: "PT Sans",sans-serif;
+      line-height: 1.65;
+      letter-spacing: normal;
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      height: 100%;
+      background: none;
+      border: none;
+      padding: 30px 0;
+      outline: none;
+  }
+}
+
+.preview {
+    float: left;
+    width: 50%;
+    overflow: auto;
+
+    .pre {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      height: 100%;
+      padding: 30px 0;
+    }
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}

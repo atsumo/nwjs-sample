@@ -1,0 +1,20 @@
+{
+  "name": "markdown",
+  "version": "0.1.0",
+  "description": "markdown react nwjs",
+  "author": "atsumo",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-iconutil": "^1.1.0",
+    "gulp-sketch": "0.0.9",
+    "node-webkit-builder": "^1.0.11"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "marked": "^0.3.3"
+  }
+}
