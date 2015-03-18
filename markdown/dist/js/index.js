@@ -7,6 +7,12 @@ var React = _interopRequire(require("react"));
 
 var App = _interopRequire(require("./components/App.jsx"));
 
+var gui = window.require("nw.gui");
+
+var mb = new gui.Menu({ type: "menubar" });
+mb.createMacBuiltin("Markdowner");
+gui.Window.get().menu = mb;
+
 React.render(React.createElement(App, null), document.getElementById("app"));
 
 

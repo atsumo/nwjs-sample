@@ -1,6 +1,7 @@
 {
   "name": "markdown",
   "version": "0.1.0",
+  "main": "./dist/index.html",
   "description": "markdown react nwjs",
   "author": "atsumo",
   "license": "MIT",
@@ -19,10 +20,11 @@
     "gulp-sass": "^1.3.3",
     "babelify": "^5.0.4",
     "reactify": "^1.1.0",
-    "react": "^0.13.1"
+    "react": "^0.13.1",
+    "nw": "^0.12.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "nw",
     "build": "gulp build"
   },
   "dependencies": {
