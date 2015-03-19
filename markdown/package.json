@@ -24,8 +24,10 @@
     "nw": "^0.12.0"
   },
   "scripts": {
-    "start": "nw",
-    "build": "gulp build"
+    "start": "gulp",
+    "build": "gulp build",
+    "preview": "nw",
+    "release": "gulp release"
   },
   "dependencies": {
     "marked": "^0.3.3"
