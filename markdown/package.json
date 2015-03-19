@@ -1,6 +1,7 @@
 {
   "name": "markdown",
   "version": "0.1.0",
+  "main": "./dist/index.html",
   "description": "markdown react nwjs",
   "author": "atsumo",
   "license": "MIT",
@@ -8,10 +9,22 @@
     "gulp": "^3.8.7",
     "gulp-iconutil": "^1.1.0",
     "gulp-sketch": "0.0.9",
-    "node-webkit-builder": "^1.0.11"
+    "node-webkit-builder": "^1.0.11",
+    "require-dir": "^0.1.0",
+    "gulp-util": "^3.0.4",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "browserify": "^9.0.3",
+    "watchify": "^2.4.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^1.3.3",
+    "babelify": "^5.0.4",
+    "reactify": "^1.1.0",
+    "react": "^0.13.1",
+    "nw": "^0.12.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "nw",
     "build": "gulp build"
   },
   "dependencies": {

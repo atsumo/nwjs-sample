@@ -10,4 +10,10 @@ if (process.platform === "darwin") {
   gui.Window.get().menu = mb;
 }
 
+var gui = window.require('nw.gui');
+
+var mb = new gui.Menu({type: 'menubar'});
+mb.createMacBuiltin('Markdowner');
+gui.Window.get().menu = mb;
+
 React.render(<App />, document.getElementById('app'));
